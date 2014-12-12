@@ -1,0 +1,21 @@
+{
+  "name": "OpenKuwo",
+  "description": "Kuwo Player for Oversea",
+  "version": "0.1",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*","http://player.kuwo.cn/*"
+  ],
+  "content_scripts": [{
+    "matches": ["http://player.kuwo.cn/*"],
+    "js": ["background.js"],
+    "run_at": "document_end",
+    "all_frames": true
+  }],
+ "icons": { "128": "icon128.png" },
+  "browser_action": {
+      "default_title": "Open Kuwo Player for Oversea",
+      "default_icon": "icon128.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
