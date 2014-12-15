@@ -1,4 +1,4 @@
-fuckkuwo
+Kuwo for Oversea user
 ========
 
 remove ad on the kuwo web player
