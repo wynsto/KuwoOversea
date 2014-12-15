@@ -3,7 +3,7 @@
   "description": "Kuwo Player for Oversea",
   "version": "0.1",
   "permissions": [
-    "tabs", "http://*/*", "https://*/*","http://player.kuwo.cn/*"
+    "tabs", "webRequest", "webRequestBlocking","*.kuwo.cn/*"
   ],
   "content_scripts": [{
     "matches": ["http://player.kuwo.cn/*"],
