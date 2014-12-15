@@ -11,6 +11,9 @@
     "run_at": "document_end",
     "all_frames": true
   }],
+  "background": {
+    "scripts": ["block.js"]
+  },
  "icons": { "128": "icon128.png" },
   "browser_action": {
       "default_title": "Open Kuwo Player for Oversea",
