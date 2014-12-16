@@ -6,3 +6,5 @@ remove ad on the kuwo web player
 * Open Chrome extension page:   chrome://extensions/
 * check Developer mode
 * load unpacked extension 
+
+This plugin could block the ad of Youku 
