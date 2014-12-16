@@ -3,8 +3,7 @@
   "description": "Kuwo Player for Oversea",
   "version": "0.1",
   "permissions": [
-    "tabs", "webRequest", "webRequestBlocking","*://*.kuwo.cn/*"
-  ],
+    "tabs", "webRequest", "webRequestBlocking","*://*.kuwo.cn/*","*://*.youku.com/*", "*://*.tudou.com/*", "*://*.sohu.com/*", "*://*.letv.com/*", "*://*.qq.com/*", "*://*.cntv.cn/*", "*://*.doubleclick.net/*", "*://*.funshion.com/*", "*://*.qiyi.com/*", "*://*.iqiyi.com/*", "*://*.56.com/*", "*://*.pptv.com/*" ],
   "content_scripts": [{
     "matches": ["http://player.kuwo.cn/*"],
     "js": ["background.js"],
